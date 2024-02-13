@@ -48,7 +48,7 @@ exports.loginUser = async (req, res) => {
     res.cookie("token", jwtToken.token, {
       httpOnly: true,
       maxAge: jwtToken.expiresIn,
-      sameSite: "strict",
+      sameSite: "none",
       secure: process.env.NODE_ENV === "production",
     });
 
