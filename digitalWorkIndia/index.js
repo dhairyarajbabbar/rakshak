@@ -19,7 +19,7 @@ app.use(express.json()); // Add this line to parse JSON data
 app.use(cookieParser());
 connectToMongoDb();
 
-const port=process.env.port || 4000;
+const port=process.env.PORT || 4000;
 const corsOptions = {
     origin: `${process.env.FRONTEND}`,
     methods: 'GET, POST, OPTIONS, PUT, PATCH, DELETE',
