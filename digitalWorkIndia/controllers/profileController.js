@@ -23,7 +23,7 @@ exports.updateUserProfile = async (req, res) => {
       return res.status(404).json({ error: "User profile not found" });
     }
 
-    const { name, email, address, contact } = req.body.newDetails;
+    const { name, email, address, contact } = req.body;
     userProfile.name = name || userProfile.name;
     userProfile.email = email || userProfile.email;
     userProfile.address = address || userProfile.address;
