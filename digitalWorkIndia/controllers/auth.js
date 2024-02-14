@@ -68,6 +68,7 @@ exports.logout = async (req, res) => {
     maxAge:new Date(Date.now() + 5000),
     httpOnly: true,
     sameSite: "none",
+    secure: process.env.NODE_ENV === "production",
   });
   res.status(200).json({
     success: true,
