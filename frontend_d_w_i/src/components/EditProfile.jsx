@@ -26,7 +26,7 @@ export default function EditProfile() {
   let navigate = useNavigate();
 
   React.useEffect(() => {
-    axios.get(`${process.env.REACT_APP_BASEURL}api/profile/update`, {
+    axios.put(`${process.env.REACT_APP_BASEURL}api/profile/update`, {
       withCredentials: true
     })
     .then(response => {
