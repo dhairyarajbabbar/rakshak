@@ -51,7 +51,7 @@ export default function FAQ() {
             id="panel1d-header"
           >
             <Typography component="h3" variant="subtitle2">
-              How do I contact customer support if I have a question or issue?
+              Why should you hire me?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -60,10 +60,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              You can reach our customer support team by emailing
-              <Link> support@email.com </Link>
-              or calling our toll-free number. We&apos;re here to assist you
-              promptly.
+              As a skilled developer proficient in MERN stack, Next.js, Tailwind CSS, TypeScript, and JavaScript, I bring a wealth of experience and expertise to your team. I am passionate about delivering high-quality solutions, continuously learning and adapting to new technologies, and collaborating effectively with colleagues to achieve project goals. My strong problem-solving abilities and commitment to excellence make me an asset to any development project.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -77,7 +74,7 @@ export default function FAQ() {
             id="panel2d-header"
           >
             <Typography component="h3" variant="subtitle2">
-              Can I return the product if it doesn&apos;t meet my expectations?
+              What tech stack do I know?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -86,9 +83,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Absolutely! We offer a hassle-free return policy. If you&apos;re not
-              completely satisfied, you can return the product within [number of
-              days] days for a full refund or exchange.
+              I am proficient in a range of technologies, including the MERN stack (MongoDB, Express.js, React.js, Node.js), Next.js, Tailwind CSS, TypeScript, and JavaScript. Additionally, I have experience with various tools and libraries commonly used in web development, allowing me to create efficient, scalable, and user-friendly applications.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -102,7 +97,7 @@ export default function FAQ() {
             id="panel3d-header"
           >
             <Typography component="h3" variant="subtitle2">
-              What makes your product stand out from others in the market?
+              What project challenges have I faced and how did I overcome them?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -111,9 +106,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Our product distinguishes itself through its adaptability, durability,
-              and innovative features. We prioritize user satisfaction and
-              continually strive to exceed expectations in every aspect.
+              In my previous projects, I encountered various challenges such as scalability issues, tight deadlines, and evolving requirements. To address these challenges, I leveraged my problem-solving skills and collaborated closely with team members to brainstorm innovative solutions. For example, in one project, we implemented microservices architecture to improve scalability, and in another, we adopted Agile methodologies to adapt to changing requirements effectively.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -127,7 +120,7 @@ export default function FAQ() {
             id="panel4d-header"
           >
             <Typography component="h3" variant="subtitle2">
-              Is there a warranty on the product, and what does it cover?
+              How do I stay updated with the latest technologies and trends in web development?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -136,10 +129,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Yes, our product comes with a [length of warranty] warranty. It covers
-              defects in materials and workmanship. If you encounter any issues
-              covered by the warranty, please contact our customer support for
-              assistance.
+              I am committed to continuous learning and staying updated with the latest technologies and trends in web development. I regularly participate in online courses, attend tech conferences and workshops, and actively engage with developer communities. Additionally, I follow industry-leading blogs, forums, and social media channels to keep abreast of emerging technologies and best practices.
             </Typography>
           </AccordionDetails>
         </Accordion>
